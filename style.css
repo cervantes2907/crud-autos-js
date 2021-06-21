@@ -1,0 +1,228 @@
+html{
+  font-size: 65.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ 
+body{
+  font-family: 'Lato', sans-serif;
+  background-image: url("https://www.xtrafondos.com/wallpapers/vertical/liquido-de-color-abstracto-4718.jpg");
+  background-position: top center;
+  background-size:unset;
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-size: 1.6rem;
+}
+
+/* titulo del crud*/
+.title-1{
+  font-size: 4.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #d37223, -4px -4px 5px #ffae34, 5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716, 2px -15px 20px #451b0e;
+    color: rgb(15, 11, 11);
+ 
+ }
+
+ .carLayout {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  padding-bottom: 1rem;
+ }
+
+ @media (min-width: 720px){
+  .carLayout {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    padding-bottom: 1rem;
+  }
+}
+
+.center {
+  margin:  0 auto;
+}
+
+.mr-top-4 {
+  margin-top: 6rem;
+}
+
+.carContainer {
+  max-width: 80rem;
+  border-radius: 2rem;
+}
+
+.container {
+  max-width: 80rem;
+  border-radius: 2rem;
+}
+
+.columnContainer {
+  padding: 0 2.5rem;
+}
+
+/*--------------------------------LAYOUT-------------------------------------*/
+
+.add {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.picBar{
+  background-color: rgb(241, 239, 239);
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.glassmMedium {
+  background: rgba(245, 114, 114, 0.75);
+  /*box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);*/
+  backdrop-filter: blur(4px);
+}
+
+
+
+.glassm {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  
+}
+
+@media(min-width: 360px) {
+  .glassm {
+    border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background: rgba(249, 251, 252, 0.4);
+  /*box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);*/
+  backdrop-filter: blur(4px);
+  border-top: solid 2px rgba(251, 252, 252, 0.28);
+  border-right: solid 2px rgba(255,255,255,0.28);
+  grid-column-start: 3;
+  grid-column-end: 4;
+  }
+}
+
+.carForm {
+  border-radius: 0.7rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hideForm {
+  display: none;
+}
+
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  
+}
+
+.formRow__input input, select, select option{
+  padding: 1rem;
+  border-radius: 0.7rem;
+  border-style: none;
+  background-color: rgba(248, 251, 252, 0.35);
+}
+
+.formRow__input input:focus {
+  outline: none;
+}
+
+.imgContainer {
+  padding: 2rem;
+}
+
+.imgContainer img {
+  width: 100%;
+}
+
+.features {
+  display:  flex;
+  padding: 2rem;
+}
+
+.features__main, .features__secondary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.features__color {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.7rem;
+  box-shadow: 2px 2px 10px  2.5px #0f0505;
+}
+
+
+.buttons {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn--update {
+  margin-top:2px;
+  justify-content: center;
+  display: inline block;
+  background: aqua;
+  width: 8rem;
+  height: 4rem;
+
+}
+
+.btn--delete {
+  margin-top:99%;
+  background: red;
+  width: 8rem;
+  height: 4rem;
+}
+
+
+@media (min-width: 720px) {
+  .buttons {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.btn{
+  background-color: aqua;
+  text-decoration: none;
+  width: 60%;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  text-align: center;
+  color: rgb(5, 4, 4);
+}
+
+.btn--update {
+  justify-content: center;
+  display: inline block;
+  background: aqua;
+  width: 8rem;
+  height: 4rem;
+
+}
+
+.btn--delete {
+  background: red;
+  width: 8rem;
+  height: 4rem;
+}
+
+  
+  
+  
+ 

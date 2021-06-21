@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>cars crud</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div class="title-1">
+          <h1>cars crud</h1>
+       </div>
+       <div class="container center add mr-top-4" id="btnAdd">
+          <a href="#" class=" btn btn__update" >Agregar</a>
+       </div>
+       <div class="container center hienForm" id="btnAdd">
+            <form action="" class="glassmMedium carForm">
+                <div class="formRow">
+                    <div class="formRow-input">
+                        <label for="">Marca</label>
+                        <select id="brand">
+                           <option value="2">Nissan</option>
+                           <option value="2">Nissan</option>
+                           <option value="3">Ford</option>
+                           <option value="4">Mazda</option>
+                           <option value="5">Volvo</option>
+                        </select>
+                    </div>
+                    <div class="formRow-input">
+                       <label for="">Modelo</label>
+                       <select id="models">
+
+                       </select>   
+                    </div>
+                    <div class="formRow-input">
+                      <label for="">Año</label>
+                        <select name="" id="">
+                           <option value="">2020</option>
+                           <option value="">2021</option>
+                           <option value="">2022</option>
+                           <option value="">2020</option>
+                           <option value="">2021</option>
+                           <option value="">2022</option>
+                           <option value="">2021</option>
+                        </select>
+                    </div>
+            
+                </div>
+                <div class="formRow">
+                    <div class="formRow__input">
+                      <label for="">Color</label>
+                      <select id="colors">
+                        <option value="">Red</option>
+                      </select>
+                    </div>
+                    <div class="formRow__input">
+                      <label for="" >Precio</label>
+                      <input type="number" value="0" id="price">
+                    </div>
+                  </div>
+                  
+                  <div class="formRow">
+                   <input type="submit" value="Agregar" class="btn  btn--update center" id="addCar">
+                  </div>
+                </form>
+            </div>
+    
+            <div class="carList" id="list">
+                <!--Inyectar HTML desde JS-->
+            </div>
+                
+        <script src="./main.js"></script>
+    </body>
+
+</html>
